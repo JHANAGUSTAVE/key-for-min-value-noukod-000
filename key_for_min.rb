@@ -3,7 +3,9 @@
 
 def key_for_min_value(name_hash)
 name_hash.each do |index, value|
-  if
+name_hash.sort do |x,y|
+     index <=> value
+  end.first[0]
  
 end
 end

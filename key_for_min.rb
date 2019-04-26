@@ -11,5 +11,5 @@ name_hash.each do |key, value|
   else name_hash = {}
     return nil
   end
-  
+  min_key
 end

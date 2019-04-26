@@ -10,4 +10,6 @@ name_hash.each do |key, value|
     min_key = key
   else name_hash = {}
     return nil
+  end
+  
 end
